@@ -3,6 +3,9 @@
 // ---------------------------------------------
 // Ben C, March 2018
 //
+let appInsights = require("applicationinsights");
+
+appInsights.setup("21d2e84f-799b-4243-b573-41af595c00b8").start();
 
 // Load .env file if it exists
 require('dotenv').config()
